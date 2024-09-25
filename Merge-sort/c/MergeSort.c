@@ -39,7 +39,7 @@ void mergeSort(int arr[], int l , int m, int r)
         j++;
         k++;
     }
-        free(aL);
+    free(aL);
     free(aR);
 }
 void sort(int arr[], int l, int r)

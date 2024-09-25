@@ -4,15 +4,17 @@ public class MergeSort {
         int s2 = r - m;
         int aL[] = new int[s1];
         int aR[] = new int[s2];
-
-        for (int i = 0; i < s1; ++i)
-            aL[i] = arr[l + i];
-        for (int j = 0; j < s2; ++j)
-            aR[j] = arr[m + 1 + j];
-        
         int i = 0;
         int j = 0;
         int k = l;
+
+        for (i = 0; i < s1; ++i)
+            aL[i] = arr[l + i];
+        for (j = 0; j < s2; ++j)
+            aR[j] = arr[m + 1 + j];
+
+        i = 0;
+        j = 0;
 
         while (i < s1 && j < s2) {
             if (aL[i] <= aR[j]) {
