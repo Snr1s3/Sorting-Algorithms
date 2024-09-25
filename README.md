@@ -5,6 +5,7 @@ This project contains implementations of various sorting algorithms in different
 ## Implemented Algorithms
 
 - Bubble Sort
+- Merge Sort
 
 ## Languages Used
 
