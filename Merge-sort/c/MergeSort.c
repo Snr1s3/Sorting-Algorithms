@@ -62,7 +62,7 @@ int main()
         printf("%d ", arr[i]);
     }
     printf("\n");
-    sort(arr, 0, length);
+    sort(arr, 0, length - 1);
     printf("Sorted array:\n");
     for (int i = 0; i < length - 1; i++) 
     {
