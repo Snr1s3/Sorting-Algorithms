@@ -1,0 +1,8 @@
+# Ignore class files
+*.class
+
+# Ignore executable files
+*.exe
+
+# Ignore output files
+*.out
