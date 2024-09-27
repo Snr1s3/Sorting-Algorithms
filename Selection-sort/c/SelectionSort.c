@@ -17,14 +17,14 @@ int main()
     int arr[] = {74, 34, 25, 12, 22, 11, 90};
     int length = sizeof(arr) / sizeof(arr[0]);
     printf("Unsorted array:\n");
-    for (int i = 0; i < length - 1; i++) 
+    for (int i = 0; i < length; i++) 
     {
         printf("%d ", arr[i]);
     }
     printf("\n");
     selectionSort(arr, length);
     printf("Sorted array:\n");
-    for (int i = 0; i < length - 1; i++) 
+    for (int i = 0; i < length; i++) 
     {
         printf("%d ", arr[i]);
     }
