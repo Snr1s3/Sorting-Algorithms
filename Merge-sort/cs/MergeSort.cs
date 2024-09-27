@@ -53,12 +53,12 @@ class BubbleSort
     {
         int[] arr = {64, 34, 25, 12, 22, 11, 90};
         Console.WriteLine("Unsorted array:");
-        for (int i = 0; i <arr.Length - 1; i++)
+        for (int i = 0; i <arr.Length; i++)
             Console.Write(arr[i] + " ");
         Console.WriteLine();
         sort(arr, 0, arr.Length - 1);
         Console.WriteLine("Sorted array:");
-        for (int i = 0; i <arr.Length - 1; i++)
+        for (int i = 0; i <arr.Length; i++)
             Console.Write(arr[i] + " ");
         Console.WriteLine();
     }
