@@ -15,3 +15,4 @@ This project contains implementations of various sorting algorithms in different
 - Python
 - C
 - C#
+- Go
